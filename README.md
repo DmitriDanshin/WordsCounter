@@ -1,8 +1,9 @@
 # Запуск
+Для запуска на устройстве должен быть установлен Python версии 3.
 
 1. Распаковать архив.
-2. Зайти в папку WordsCounter-master/venv/Scripts.
-3. Запустить через консоль.
+2. Зайти в папку WordsCounter-master/venv/Scripts через консоль.
+3. Ввести в консоли.
    
    Windows:
    
@@ -11,7 +12,7 @@
    
         bin/activate
 
-4. В WordsCounter-master введите:
+4. В папке WordsCounter-master через консоль:
     
         python main.py
 
