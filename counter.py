@@ -1,3 +1,4 @@
+
 class Counter:
     def __init__(self, text, divider):
         self.text = text,

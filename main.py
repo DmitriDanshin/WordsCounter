@@ -1,5 +1,7 @@
+
 from html_parser import Parser
 from counter import Counter
+
 
 URL = "https://www.google.com/"
 HEADERS = {
