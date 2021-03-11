@@ -12,7 +12,7 @@
    
         bin/activate
 
-4. В WordsCounter-master введите:
+4. В папке WordsCounter-master через консоль:
     
         python main.py
 
