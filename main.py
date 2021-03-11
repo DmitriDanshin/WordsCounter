@@ -11,6 +11,7 @@ HEADERS = {
 DIVS = " ,:@.-()/!?"
 
 if __name__ == '__main__':
+    URL = input("Type your URL: ")
     html_text = Parser(url=URL, headers=HEADERS).parse()
     c = Counter(html_text, divider=DIVS).count_words()
     print(c)
