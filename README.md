@@ -2,20 +2,13 @@
 Для запуска на устройстве должен быть установлен Python версии 3.
 
 1. Распаковать архив.
-2. Зайти в папку WordsCounter-master/venv/Scripts через консоль.
-3. Ввести в консоли.
+2. Ввести в консоли.
    
-   Windows:
-   
-        activate.bat
-   Unix или MacOS:
-   
-        bin/activate
+         pip install virtualenv
+         cd <путь_к_распакованному_архиву>
+         virtualenv venv --python=<ваша_версия_python>
+         source venv/bin/activate
+         
+3. Устанавливаем необходимые пакеты.
 
-4. В папке WordsCounter-master через консоль:
-    
-        python main.py
-
-5. Введите URL адресс в формате.
-   
-        https://www.python.org/
+         pip install -r requirements.txt
