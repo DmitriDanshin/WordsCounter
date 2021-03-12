@@ -11,7 +11,8 @@ class Parser:
     def get_html(self, url):
         try:
             return requests.get(url, headers=self.headers)
-        except:
+        except requests.exceptions.MissingSchema:
+            print("Incorrect address.")
             return None
 
     @staticmethod
